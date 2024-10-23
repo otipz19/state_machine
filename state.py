@@ -29,3 +29,6 @@ class State:
 
     def equals(self, name: str) -> bool:
         return name == self.__name
+
+    def get_name(self) -> str:
+        return self.__name
